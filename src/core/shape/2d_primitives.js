@@ -108,6 +108,7 @@ p5.prototype._normalizeArcAngles = function(
  * Adding or subtracting TWO_PI to either angle does not change where they fall.
  * If both start and stop fall at the same place, a full ellipse will be drawn.Be aware that the the
  * y-axis increases in the downward direction therefore the values of PI is counter clockwise.
+ * <img src="assets/pi chart-01-01.jpg"></img>
  * @method arc
  * @param  {Number} x      x-coordinate of the arc's ellipse
  * @param  {Number} y      y-coordinate of the arc's ellipse
